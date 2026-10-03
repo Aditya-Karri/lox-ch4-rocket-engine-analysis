@@ -1,0 +1,10 @@
+# ANSYS / Fluent saved files
+*.cas.h5
+*.dat.h5
+
+# ANSYS Workbench files
+*_files/
+*.wbpj
+
+# Word report
+*Report_LOX_CH4_Rocket_Engine.docx

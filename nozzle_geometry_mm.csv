@@ -1,0 +1,7 @@
+Point,x_mm,radius_mm
+chamber_inlet_wall,0.0,50.0
+chamber_end,100.0,50.0
+throat,179.29209323624505,36.018664605598815
+exit,545.6997600420821,113.90101843138264
+exit_axis,545.6997600420821,0.0
+chamber_axis,0.0,0.0

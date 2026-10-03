@@ -1,0 +1,25 @@
+Parameter,Value,Units,Basis
+Target thrust,20.0,kN,Conceptual design requirement
+Chamber pressure,30.0,bar,CEA input
+O/F,3.0,-,CEA sweep selected point
+Expansion ratio,10.0,-,CEA input
+Chamber temperature,3373.82,K,CEA output
+c*,1851.6,m/s,CEA output
+Cf,1.6357,-,CEA output
+Throat area,40.757270078050176,cm^2,F=Cf*Pc*At
+Throat diameter,72.03732921119763,mm,Equivalent circular throat
+Exit area,407.57270078050175,cm^2,Ae/At*At
+Exit diameter,227.80203686276528,mm,Equivalent circular exit
+Total mass flow,6.603575838958227,kg/s,Pc*At/c*
+CH4 mass flow,1.6508939597395567,kg/s,O/F split
+LOX mass flow,4.9526818792186695,kg/s,O/F split
+Injector pressure drop,6.0,bar,20% of chamber pressure assumption
+Injector upstream pressure,36.0,bar,Pc + deltaP
+LOX total flow area,167.30811301210898,mm^2,Cd-orifice screening model
+CH4 total flow area,91.70274651075745,mm^2,Cd-orifice screening model
+Screening throat heat flux,49.771484270739585,MW/m^2,1-D thermal resistance model
+Hot-side wall temperature,1478.3821591993578,K,Screening model
+Coolant-side wall temperature,1229.52473784566,K,Screening model
+Cooling-channel hydraulic diameter,2.4000000000000004,mm,20 x 2x3 mm channel assumption
+Cooling-channel Reynolds number,300162.5381344649,-,Screening model
+Cooling pressure drop,3.78914115331168,bar,Screening model
